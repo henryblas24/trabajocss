@@ -1,0 +1,60 @@
+*
+*::before, 
+*::after {
+    box-sizing: border-box; 
+} 
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: white;
+}
+ 
+ 
+header {
+    color:#ad9130 ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-align: left;
+}
+
+h3 {
+   display: grid;
+   color:#ad9130 ;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 12px;
+   width: 300;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  
+}
+   
+.detalle-articulo {
+   display: flex;
+   flex-direction: row; 
+   inline-size: 400px;
+}
+
+.texto {
+   padding-left: 20px;
+}
+.img-1 {
+    margin-top: 50px; 
+    margin-left: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+   font-size: 15px;
+}
+a {
+    color: #ad9130;
+    font-size: 12px;
+}
